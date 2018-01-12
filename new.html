@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>story</title>
+    <link rel="stylesheet" href="new.css" type="text/css">
+</head>
+
+<body onload="getStory('0')">
+   <div id="wrapper">
+   <img id="images" alt="" width="1024px">
+    <table id="table" border="3" cellpadding="15px" width=50%>
+        <tr>
+            <td>
+                <span id="P1"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="Res" id="R1" onMouseOver="cursorOver('R1')" onMouseOut="cursorOut('R1')" onclick="getStory('1')"></span><br>
+                <span class="Res" id="R2" onMouseOver="cursorOver('R2')" onMouseOut="cursorOut('R2')" onclick="getStory('2')"></span><br>
+                <span class="Res" id="R3" onMouseOver="cursorOver('R3')" onMouseOut="cursorOut('R3')" onclick="getStory('3')"></span><br>
+                <span class="Res" id="R4" onMouseOver="cursorOver('R4')" onMouseOut="cursorOut('R4')" onclick="getStory('4')"></span><br>
+            </td>
+        </tr>
+    </table>
+    <!--
+   <audio autoplay="" id="A1" src="">
+   <source type="audio/mpeg" />
+   </audio>
+-->
+    <script type="text/javascript" src="new.js"></script>
+    <script type="text/javascript" src="newStory.js"></script>
+    </div>
+</body>
+
+</html>

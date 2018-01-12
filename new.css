@@ -1,0 +1,22 @@
+body,
+html {
+    padding: 0;
+    margin:0;
+}
+
+#wrapper {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+table {
+    top: 260px;
+    left: 270px;
+    position: absolute;
+    color: black;
+    background-color: rgba(255,255,255,0.6);
+}
+p,td{
+    font-weight: 600;
+}
